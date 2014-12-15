@@ -13,6 +13,7 @@ PASO 1: Descarga el plugin y situa estas lineas al final de tu documentos antes 
   })();
 </script>
 
+
 PASO 2: CREA LOS ELEMENTOS HTML EN TU PAGINA WEB Y AÑADELE EL ATRIBUTO data-traducir:
 
 <div data-traducir="texto1">English TEXT 1</div>
