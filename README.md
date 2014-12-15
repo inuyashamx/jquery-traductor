@@ -41,7 +41,7 @@ PASO 4: DEBES IR ALIMENTANDO TU ARCHIVO JSON DE ACUERDO A LAS LLAVES QUE DECLARA
 }
 ```
 
-PASO 5. FIN
+################### FIN ###########################
 
 NOTAS:
 Si deseas poner los archivos en un directorio especifico, por ejemplo lenguajes, puedes declarar la ruta:
