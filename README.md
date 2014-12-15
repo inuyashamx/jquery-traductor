@@ -3,8 +3,9 @@ jquery-traductor
 
 Es un plugin para traducir textos que detecta el lenguaje del explorador del usuario y carga automaticamente un archivo json para reemplazar llaves en los HTML, para ello debes seguir los siguientes pasos:
 
-PASO 1: Descarga el plugin y situa estas lineas al final de tu documentos antes del </body>
+PASO 1: Descarga el plugin y situa estas lineas al final de tu documentos antes que termine body
 
+```javascript
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="jquery-traductor.js"></script>
 <script>
@@ -12,7 +13,7 @@ PASO 1: Descarga el plugin y situa estas lineas al final de tu documentos antes 
     $("body").jquery_traductor();
   })();
 </script>
-
+```
 
 PASO 2: CREA LOS ELEMENTOS HTML EN TU PAGINA WEB Y AÑADELE EL ATRIBUTO data-traducir:
 
