@@ -1,0 +1,27 @@
+<!--
+Autor Jose Paul Nuñez Carrillo
+14 Diciembre de 2014
+jpnc_18@hotmail.com
+facebook @InuYashaMX
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jquery Traductor</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        
+        <div data-traducir="texto1">English TEXT 1</div>
+        <p data-traducir="texto2">English TEXT 2</p>
+        <h1 data-traducir="texto3">English TEXT 3</h1>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery-traductor.js"></script>
+        <script>
+            (function() {
+                $("body").jquery_traductor();
+            })();
+        </script>
+    </body>
+</html>
